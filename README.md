@@ -9,7 +9,7 @@ Sovellus ei ole aivan täysin viimeistelty, joten jotkut ominaisuudet puuttuvat.
 Sovelluksessa on toteutettu seuraavat tekniset ominaisuudet:
 
 - Dynaaminen datanhaku: Tuotetiedot ja kuvamateriaalit haetaan Sanity.io Headless CMS -järjestelmästä.
-- Globaali tilanhallinta: Ostoskorin logiikka ja tuotemäärien päivitys on toteutettu React Context API:lla, mikä mahdollistaa tilan hallinnan koko sovelluksessa.
+- Globaali tilanhallinta: Ostoskorin logiikka ja tuotemäärien päivitys on toteutettu React Context API:lla, mikä mahdollistaa    tilan hallinnan koko sovelluksessa.
 - Maksuintegraatio: Maksunvälitys on toteutettu Stripe Embedded Checkout ratkaisulla.
 - Responsiivisuus: Navbarissa kustomoitu scrollaus, tuotekaruselli ja tuotteen korostus kursorin kohdalla.
 
@@ -31,7 +31,7 @@ Projektissa on painotettu selkeää rakennetta:
 
 🚀 Käyttöönotto
 
-- Kloonaa repo: git clone https://github.com/jonijoke/ecommerce.git
+- Kloonaa repo: git clone https://github.com/jonijjoke/aquafuel-lab-store.git.
 - Asenna riippuvuudet: npm install
 - Lisää .env.local -tiedosto ja määritä tarvittavat API-avaimet (Sanity & Stripe).
 - Käynnistä kehityspalvelin: npm run dev
