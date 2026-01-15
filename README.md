@@ -4,6 +4,8 @@ Tämä projekti on oma harjoitustyö, jossa tavoitteena oli harjoitella rakentam
 Projektin pohjana on käytetty JSMasteryn verkkokauppatutoriaalia, mutta sovellusta on kustomoitu ja tehty kuvitteellisen Aquafuel Lab -brändin mukaiseksi.
 Sovellus ei ole aivan täysin viimeistelty, joten jotkut ominaisuudet puuttuvat.
 
+Sovellus on testattavissa livenä Vercelissä: [https://aquafuel-lab-store.vercel.app/](https://aquafuel-lab-store.vercel.app/)
+
 🛠️ Tekninen toteutus ja ominaisuudet
 
 Sovelluksessa on toteutettu seuraavat tekniset ominaisuudet:
@@ -31,7 +33,7 @@ Projektissa on painotettu selkeää rakennetta:
 
 🚀 Käyttöönotto
 
-- Kloonaa repo: git clone https://github.com/jonijoke/ecommerce.git
+- Kloonaa repo: git clone https://github.com/jonijjoke/aquafuel-lab-store.git
 - Asenna riippuvuudet: npm install
 - Lisää .env.local -tiedosto ja määritä tarvittavat API-avaimet (Sanity & Stripe).
 - Käynnistä kehityspalvelin: npm run dev
