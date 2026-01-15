@@ -45,6 +45,3 @@ Tämä harjoitusprojekti syvensi osaamistani ja oli todella hyvä harjoitus näi
 - Full-stack: Opin hallitsemaan kolmannen osapuolen API:en (Sanity, Stripe) ja käyttöliittymän välillä.
 - Tietoturva: Ymmärrys ympäristömuuttujien (.env) kriittisyydestä ja salaisten avainten suojaamisesta.
 - Tilanhallinta: Monimutkaisen ostoskorilogiikan rakentaminen. 
-
-
-
