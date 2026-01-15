@@ -1,8 +1,10 @@
 Aquafuel Lab - Full-stack Verkkokauppaprojekti
 
-Tämä projekti on oma harjoitustyö, jossa tavoitteena oli harjoitella rakentamaan moderni ja skaalautuva verkkokauppasivusto. Tarkoituksena oli oppia front- ja back-endin salat.
-Projektin pohjana on käytetty JSMasteryn verkkokauppatutoriaalia, mutta sovellusta on kustomoitu ja tehty kuvitteellisen Aquafuel Lab -brändin mukaiseksi.
-Sovellus ei ole aivan täysin viimeistelty, joten jotkut ominaisuudet puuttuvat.
+Tämä projekti on oma harjoitustyö, jossa tavoitteena oli harjoitella rakentamaan moderni ja skaalautuva verkkokauppasivusto. Tarkoituksena oli oppia front- ja back-endin salat, eikä keskittyä niinkään brändin ilmeeseen ja sivuston ulkoasuun.
+Projektin pohjana on käytetty JSMasteryn verkkokauppatutoriaalia, mutta sovellusta on kustomoitu ja tehty kuvitteellisen Aquafuel Lab vitamiinivesitabletti -brändin mukaiseksi.
+Sovellus ei ole täysin viimeistelty ja osa ominaisuuksista puuttuu.
+
+Sovellus on testattavissa livenä Vercelissä: [https://aquafuel-lab-store.vercel.app/](https://aquafuel-lab-store.vercel.app/)
 
 🛠️ Tekninen toteutus ja ominaisuudet
 
