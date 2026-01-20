@@ -20,7 +20,7 @@ Some features are not available, and the interface is not optimized for mobile d
 - Responsive UI: Custom animations, carousel effects, and hover interactions.
   
 
-🏗️ **Technologies Used**
+🏗️ **Tech Stack**
 
 - Next.js
 - React
