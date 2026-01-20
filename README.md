@@ -54,3 +54,8 @@ This practice project allowed me to deepen my expertise and provided valuable ha
 - AI Integration & RAG: Implementing a context-aware AI assistant using Google Gemini. I learned how to use RAG (Retrieval-Augmented Generation) to ensure the AI provides accurate answers based on specific store data.
 - State Management: Building and managing complex shopping cart logic, ensuring a consistent user experience across different components.
 - Security: Understanding the critical importance of environment variables (.env) and how to properly secure sensitive API keys and secrets. Secure the AI assistant from spamming and abuse.
+
+🔮 **Future Improvements**
+
+- Mobile Optimization
+- Codebase Maintainability: Adding code comments and to improve readability and long-term maintainability.
