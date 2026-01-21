@@ -12,7 +12,6 @@ Some features are not available, and the interface is not optimized for mobile d
 🛠️ **Key Features**
 
 - AI Assistant: Context-aware chat assistant powered by Google Gemini Flash fueled with store data.
-- Streaming Responses: Real-time text generation using Vercel AI SDK.
 - Rate Limiting: Secured with Upstash Redis to prevent spam and abuse.
 - Dynamic Content: Product data and assets are fetched from Sanity.io Headless CMS.
 - Global State Management: Shopping cart logic powered by React Context API.
