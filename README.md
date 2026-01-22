@@ -1,47 +1,60 @@
-Aquafuel Lab - Full-stack Verkkokauppaprojekti
+**Aquafuel Lab - Full-stack E-commerce Project with AI Shopping Assistant**
 
-Tämä projekti on oma harjoitustyö, jossa tavoitteena oli harjoitella rakentamaan moderni ja skaalautuva verkkokauppasivusto. Tarkoituksena oli oppia front- ja back-endin salat, eikä keskittyä niinkään brändin ilmeeseen ja sivuston ulkoasuun.
-Projektin pohjana on käytetty JSMasteryn verkkokauppatutoriaalia, mutta sovellusta on kustomoitu ja tehty kuvitteellisen Aquafuel Lab vitamiinivesitabletti -brändin mukaiseksi.
-Sovellus ei ole täysin viimeistelty ja osa ominaisuuksista puuttuu.
+This is a Full Stack project designed to demonstrate modern web development practices. The goal was to build a scalable e-commerce platform, focusing on technical implementation (Front-end & Back-end architecture) rather than just UI design.
+While the project was originally based on a JSMastery tutorial, it has been customized and re-branded for a fictional vitamin water brand, "Aquafuel Lab".
+The application features an AI-powered customer support agent. Built with Google Gemini and RAG, the AI assistant answers questions using store data and provides product recommendations.
+Some features are not available, and the interface is not optimized for mobile devices.
 
-Sovellus on testattavissa livenä Vercelissä: [https://aquafuel-lab-store.vercel.app/](https://aquafuel-lab-store.vercel.app/)
+🌐 **Live Demo:** https://aquafuel-lab-store.vercel.app/
 
-🛠️ Tekninen toteutus ja ominaisuudet
 
-Sovelluksessa on toteutettu seuraavat tekniset ominaisuudet:
 
-- Dynaaminen datanhaku: Tuotetiedot ja kuvamateriaalit haetaan Sanity.io Headless CMS -järjestelmästä.
-- Globaali tilanhallinta: Ostoskorin logiikka ja tuotemäärien päivitys on toteutettu React Context API:lla, mikä mahdollistaa    tilan hallinnan koko sovelluksessa.
-- Maksuintegraatio: Maksunvälitys on toteutettu Stripe Embedded Checkout ratkaisulla.
-- Responsiivisuus: Navbarissa kustomoitu scrollaus, tuotekaruselli ja tuotteen korostus kursorin kohdalla.
+🛠️ **Key Features**
 
-🏗️ Teknologiat
+- AI Assistant: Context-aware chat assistant powered by Google Gemini Flash fueled with store data.
+- Rate Limiting: Secured with Upstash Redis to prevent spam and abuse.
+- Dynamic Content: Product data and assets are fetched from Sanity.io Headless CMS.
+- Global State Management: Shopping cart logic powered by React Context API.
+- Payments: Checkout integration with Stripe.
+- Responsive UI: Custom animations, carousel effects, and hover interactions.
+  
 
-- Frontend: Next.js & React
-- Sisällönhallinta: Sanity
-- Maksut: Stripe
-- Ulkoasu: Custom CSS
+🏗️ **Tech Stack**
 
-📁 Sovelluksen rakenne
+- Next.js
+- React
+- JavaScript
+- Sanity.io
+- Stripe
+- Upstash Redis
+- Google Gemini API & Vercel AI SDK
+  
 
-Projektissa on painotettu selkeää rakennetta:
+📁 **Project Structure**
 
-- Navbar.jsx: Navigointi ja tilan seuranta.
-- ProductDetailsClient.jsx: Tuotesivun asiakaspuolen logiikka ja hallinta.
-- Cart.jsx: Ostoskorin hallintaan.
-- Layout.jsx: Sovelluksen yleinen rakenne.
+- app/api/chat/route.js: Backend logic for the AI chatbot (handling prompts & rate limiting).
+- components/ChatBot.js: Frontend UI for the chat interface.
+- context/StateContext.js: Global state for managing the shopping cart.
+- lib/client.js: Sanity client configuration.
 
-🚀 Käyttöönotto
+  
+🚀 **Getting Started**
 
-- Kloonaa repo: git clone https://github.com/jonijjoke/aquafuel-lab-store.git.
-- Asenna riippuvuudet: npm install
-- Lisää .env.local -tiedosto ja määritä tarvittavat API-avaimet (Sanity & Stripe).
-- Käynnistä kehityspalvelin: npm run dev
+- Clone repository: git clone https://github.com/jonijjoke/aquafuel-lab-store.git.
+- Install dependencies: npm install
+- Set up environment variables: Create a .env.local file in the root directory and add your API keys.
+- Run development server: npm run dev
+  
 
-🧠 Mitä opin
+🧠 **Key Takeaways**
 
-Tämä harjoitusprojekti syvensi osaamistani ja oli todella hyvä harjoitus näillä osa-alueilla:
+This practice project allowed me to deepen my expertise and provided valuable hands-on experience in the following areas:
+- Full-stack Development: Managing the seamless integration between the frontend and third-party APIs like Sanity and Stripe.
+- AI Integration & RAG: Implementing a context-aware AI assistant using Google Gemini. I learned how to use RAG (Retrieval-Augmented Generation) to ensure the AI provides accurate answers based on specific store data.
+- State Management: Building and managing complex shopping cart logic, ensuring a consistent user experience across different components.
+- Security: Understanding the critical importance of environment variables (.env) and how to properly secure sensitive API keys and secrets. Secure the AI assistant from spamming and abuse.
 
-- Full-stack: Opin hallitsemaan kolmannen osapuolen API:en (Sanity, Stripe) ja käyttöliittymän välillä.
-- Tietoturva: Ymmärrys ympäristömuuttujien (.env) kriittisyydestä ja salaisten avainten suojaamisesta.
-- Tilanhallinta: Monimutkaisen ostoskorilogiikan rakentaminen. 
+🔮 **Future Improvements**
+
+- Mobile Optimization
+- Codebase Maintainability: Adding code comments and to improve readability and long-term maintainability.

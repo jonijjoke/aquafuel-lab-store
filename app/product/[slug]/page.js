@@ -17,7 +17,7 @@ export async function generateStaticParams() {
   }
   
   export default async function ProductPage({ params }) {
-    const { slug } = params;
+    const { slug } = await params;
     const query = `*[_type == "product" && slug.current == '${slug}'][0]`;
     const productsQuery = '*[_type == "product"]';
   
