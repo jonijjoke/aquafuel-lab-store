@@ -1,7 +1,7 @@
 **Aquafuel Lab - Full-stack E-commerce Project with AI Shopping Assistant**
 
 This is a Full Stack project designed to demonstrate modern web development practices. The goal was to build a scalable e-commerce platform, focusing on technical implementation (Front-end & Back-end architecture) rather than just UI design.
-While the project was originally based on a JSMastery tutorial, it has been customized and re-branded for a fictional vitamin water brand, "Aquafuel Lab".
+While the project was originally based on a JSMastery tutorial, it has been customized and re-branded for a fictional vitamin water tablet brand, "Aquafuel Lab".
 The application features an AI-powered customer support agent. Built with Google Gemini and RAG, the AI assistant answers questions using store data and provides product recommendations.
 Some features are not available, and the interface is not optimized for mobile devices.
 
