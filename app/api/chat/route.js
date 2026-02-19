@@ -75,7 +75,7 @@ export async function POST(req) {
 
     // Luodaan vastaus
     const result = await streamText({
-      model: google('gemini-flash-latest', {
+      model: google('gemini-2.5-flash', {
         safetySettings: [
           { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_LOW_AND_ABOVE' },
           { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_LOW_AND_ABOVE' },
