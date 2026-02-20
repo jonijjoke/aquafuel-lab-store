@@ -71,6 +71,7 @@ export async function POST(req) {
       1. Käytä VASTAUKSISSA ensisijaisesti yllä olevaa tietopankkia.
       2. Jos asiakas kysyy tuotteista, hinnoista tai toimituksesta, tarkista faktat tekstistä.
       3. Jos tietoa ei löydy, myönnä se rehellisesti ja ohjaa sähköpostiin (support@aquafuel-lab.fi).
+      4. Älä käytä vastauksissasi Markdown-muotoiluja, kuten lihavointeja (**)
     `;
 
     // Luodaan vastaus
